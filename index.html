@@ -1,0 +1,1065 @@
+<!doctype html>
+<html lang="en-NZ">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="Ming Zhao's professional portfolio: selected experience in process improvement, financial data analysis, automation, compliance and stakeholder engagement."
+  >
+
+  <meta name="theme-color" content="#102c41">
+
+  <title>Ming Zhao | Professional Portfolio</title>
+
+  <link
+    rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23102c41'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial,sans-serif' font-size='27' font-weight='700' fill='white'%3EMZ%3C/text%3E%3C/svg%3E"
+  >
+
+  <style>
+    :root {
+      --ink: #102c41;
+      --body: #32495a;
+      --muted: #576c7b;
+      --accent: #087f8c;
+      --line: #d6e1e8;
+      --paper: #fff;
+      --tint: #f1f6f9;
+      --soft: #eaf5f5;
+      --max: 1160px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 2rem;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      font: 1rem/1.65 Arial, Helvetica, sans-serif;
+      color: var(--body);
+    }
+
+    a {
+      color: inherit;
+      text-underline-offset: 0.22em;
+    }
+
+    a:hover {
+      color: var(--accent);
+    }
+
+    a:focus-visible {
+      outline: 3px solid #e39b1c;
+      outline-offset: 5px;
+    }
+
+    ::selection {
+      background: #d6eeee;
+      color: var(--ink);
+    }
+
+    .wrap {
+      width: min(var(--max), calc(100% - 5rem));
+      margin-inline: auto;
+    }
+
+    .skip {
+      position: absolute;
+      left: 1rem;
+      top: -5rem;
+      background: white;
+      padding: 0.6rem 1rem;
+      z-index: 4;
+    }
+
+    .skip:focus {
+      top: 1rem;
+    }
+
+    .masthead {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      padding: 1.5rem 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: var(--ink);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .monogram {
+      display: grid;
+      place-items: center;
+      width: 2.6rem;
+      height: 2.6rem;
+      background: var(--ink);
+      color: #fff;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      letter-spacing: 0.02em;
+    }
+
+    nav {
+      display: flex;
+      gap: 1.8rem;
+      font-size: 0.9rem;
+    }
+
+    nav a {
+      text-decoration: none;
+    }
+
+    .intro {
+      display: grid;
+      grid-template-columns: 1.3fr 0.9fr;
+      gap: 5rem;
+      padding: 4.5rem 0 3.5rem;
+      align-items: end;
+    }
+
+    .eyebrow {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 1rem;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 6vw, 5rem);
+      line-height: 1.05;
+      color: var(--ink);
+      letter-spacing: -0.05em;
+      margin: 0 0 1.2rem;
+    }
+
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    .intro .focus {
+      font-size: clamp(1.25rem, 2.2vw, 1.65rem);
+      line-height: 1.35;
+      color: var(--ink);
+      max-width: 29rem;
+      margin: 0;
+    }
+
+    .about {
+      max-width: 30rem;
+    }
+
+    .about p {
+      margin: 0 0 1.1rem;
+    }
+
+    .email {
+      font-size: 0.95rem;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .results {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 3px solid var(--ink);
+      border-bottom: 1px solid var(--line);
+      margin: 0 auto 4rem;
+      padding: 1.5rem 0;
+    }
+
+    .result {
+      padding: 0.4rem 1.5rem;
+      text-decoration: none;
+      border-right: 1px solid var(--line);
+    }
+
+    .result:first-child {
+      padding-left: 0;
+    }
+
+    .result:last-child {
+      border: 0;
+    }
+
+    .result strong {
+      display: block;
+      color: var(--ink);
+      font-size: 2.65rem;
+      letter-spacing: -0.05em;
+      line-height: 1.15;
+      margin-bottom: 0.55rem;
+    }
+
+    .result span {
+      display: block;
+      font-size: 0.92rem;
+      line-height: 1.4;
+      color: var(--body);
+    }
+
+    .result small {
+      display: block;
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.4rem;
+    }
+
+    .section-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 2rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .section-title h2 {
+      font-size: 1.9rem;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+      color: var(--ink);
+      margin: 0;
+    }
+
+    .section-title p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+    .cases {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.35rem;
+      margin-bottom: 4rem;
+    }
+
+    .case {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 1.8rem 2rem;
+      scroll-margin-top: 2rem;
+      background: var(--paper);
+    }
+
+    .case.featured {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 3rem;
+      background: var(--ink);
+      color: #e4edf2;
+      border: 0;
+      padding: 2.4rem;
+    }
+
+    .case.featured h3 {
+      color: #fff;
+    }
+
+    .case.featured .number {
+      color: #8cd9dd;
+    }
+
+    .case.featured .meta {
+      color: #c6d8e3;
+    }
+
+    .case.featured .outcome {
+      color: #fff;
+      border-color: #4a677b;
+      background: transparent;
+    }
+
+    .number {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      margin: 0 0 0.6rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      line-height: 1.3;
+      color: var(--ink);
+      margin: 0 0 0.65rem;
+      letter-spacing: -0.02em;
+    }
+
+    .meta {
+      font-size: 0.86rem;
+      line-height: 1.55;
+      color: var(--muted);
+      margin: 0 0 1.15rem;
+    }
+
+    .case p:last-child {
+      margin-bottom: 0;
+    }
+
+    .case .detail {
+      margin-bottom: 1rem;
+    }
+
+    .outcome {
+      border-top: 1px solid var(--line);
+      padding-top: 1rem;
+      margin-top: 1.1rem;
+      color: var(--ink);
+      font-weight: 700;
+      line-height: 1.5;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      letter-spacing: 0.03em;
+      color: var(--muted);
+      margin-top: 1rem;
+    }
+
+    .capabilities {
+      background: var(--tint);
+      padding: 3rem 0;
+      border-block: 1px solid var(--line);
+    }
+
+    .cap-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+    }
+
+    .cap-grid h2 {
+      font-size: 1.55rem;
+      color: var(--ink);
+      line-height: 1.3;
+      letter-spacing: -0.025em;
+      margin-bottom: 1rem;
+    }
+
+    .cap-grid p {
+      margin-bottom: 1rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin: 0 0 1.5rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    .skills li {
+      font-size: 0.86rem;
+      color: var(--ink);
+      padding: 0.3rem 0.75rem;
+      border: 1px solid #bacdd9;
+      background: #fff;
+      border-radius: 4px;
+    }
+
+    .credentials {
+      padding-left: 1.2rem;
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .credentials li {
+      margin-bottom: 0.35rem;
+    }
+
+    .education {
+      margin-top: 1.4rem;
+      font-size: 0.95rem;
+    }
+
+    .education strong {
+      color: var(--ink);
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+      padding-block: 2rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    footer a {
+      white-space: nowrap;
+    }
+
+    @media (max-width: 800px) {
+      .wrap {
+        width: calc(100% - 2.5rem);
+      }
+
+      .intro {
+        grid-template-columns: 1fr;
+        gap: 1.7rem;
+        padding: 3rem 0 2.5rem;
+      }
+
+      .about {
+        max-width: 40rem;
+      }
+
+      .results {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.4rem 0;
+        margin-bottom: 3rem;
+      }
+
+      .result:nth-child(2) {
+        border-right: 0;
+      }
+
+      .result:nth-child(3) {
+        padding-left: 0;
+      }
+
+      .result strong {
+        font-size: 2.35rem;
+      }
+
+      .cases {
+        grid-template-columns: 1fr;
+      }
+
+      .case.featured {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+        padding: 1.8rem;
+      }
+
+      .cap-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .section-title {
+        display: block;
+      }
+
+      .section-title p {
+        margin-top: 0.65rem;
+      }
+
+      .case {
+        padding: 1.5rem;
+      }
+
+      .masthead {
+        gap: 1rem;
+      }
+
+      nav {
+        gap: 1rem;
+      }
+
+      .brand > span:last-child {
+        display: none;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .wrap {
+        width: calc(100% - 2rem);
+      }
+
+      nav {
+        gap: 0.8rem;
+        font-size: 0.86rem;
+      }
+
+      .result {
+        padding: 0.3rem 1rem;
+      }
+
+      .result span {
+        font-size: 0.86rem;
+      }
+
+      footer {
+        display: block;
+      }
+
+      footer a {
+        display: inline-block;
+        margin-top: 1rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+
+    @media print {
+      body {
+        font-size: 10pt;
+        line-height: 1.4;
+      }
+
+      .wrap {
+        width: 100%;
+        max-width: none;
+      }
+
+      .masthead nav,
+      .skip,
+      footer a {
+        display: none;
+      }
+
+      .intro {
+        padding: 1.2rem 0;
+        gap: 2rem;
+        grid-template-columns: 1.1fr 1fr;
+      }
+
+      h1 {
+        font-size: 34pt;
+      }
+
+      .intro .focus {
+        font-size: 15pt;
+      }
+
+      .results {
+        margin-bottom: 1.5rem;
+        padding: 0.7rem 0;
+      }
+
+      .result strong {
+        font-size: 25pt;
+      }
+
+      .cases {
+        gap: 0.8rem;
+      }
+
+      .case,
+      .case.featured {
+        break-inside: avoid;
+        padding: 1rem;
+        background: #fff;
+        color: #222;
+        border: 1px solid #ccc;
+        display: block;
+      }
+
+      .case.featured h3,
+      .case.featured .meta,
+      .case.featured .outcome,
+      .case.featured .number {
+        color: #222;
+      }
+
+      .case h3 {
+        font-size: 14pt;
+      }
+
+      .case .meta {
+        font-size: 9pt;
+      }
+
+      .capabilities {
+        padding: 1.3rem 0;
+        background: white;
+      }
+
+      .cap-grid {
+        gap: 2rem;
+      }
+
+      .skills li {
+        font-size: 9pt;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      footer {
+        padding-block: 1rem;
+      }
+
+      @page {
+        size: A4;
+        margin: 15mm;
+      }
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <a class="skip" href="#work">
+    Skip to selected work
+  </a>
+
+  <header class="wrap masthead">
+
+    <a
+      class="brand"
+      href="#top"
+      aria-label="Ming Zhao, back to top"
+    >
+      <span class="monogram" aria-hidden="true">MZ</span>
+      <span>Professional portfolio</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="#work">Selected work</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="mailto:mzha9797@gmail.com">Contact</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section
+      class="wrap intro"
+      aria-labelledby="name"
+    >
+
+      <div>
+        <p class="eyebrow">
+          Selected professional experience
+        </p>
+
+        <h1 id="name">
+          Ming Zhao
+        </h1>
+
+        <p class="focus">
+          Business operations, data and compliance
+        </p>
+      </div>
+
+      <div class="about">
+
+        <p>
+          My experience spans banking, securities and client account management.
+          I use financial analysis, process improvement and stakeholder engagement
+          to improve how work gets done.
+        </p>
+
+        <a
+          class="email"
+          href="mailto:mzha9797@gmail.com"
+        >
+          mzha9797@gmail.com
+        </a>
+
+      </div>
+
+    </section>
+
+    <div
+      class="wrap results"
+      aria-label="Selected results"
+    >
+
+      <a class="result" href="#process">
+        <strong>12+</strong>
+        <span>Banking process improvements</span>
+        <small>China Merchants Bank</small>
+      </a>
+
+      <a class="result" href="#onboarding">
+        <strong>57%</strong>
+        <span>Shorter new-starter ramp-up time</span>
+        <small>China Merchants Bank</small>
+      </a>
+
+      <a class="result" href="#automation">
+        <strong>30%</strong>
+        <span>Shorter internal review cycles</span>
+        <small>CAIDA SECURITIES</small>
+      </a>
+
+      <a class="result" href="#process">
+        <strong>99.8%</strong>
+        <span>Client satisfaction</span>
+        <small>China Merchants Bank</small>
+      </a>
+
+    </div>
+
+    <section
+      class="wrap"
+      id="work"
+      aria-labelledby="work-title"
+    >
+
+      <div class="section-title">
+
+        <h2 id="work-title">
+          Selected work
+        </h2>
+
+        <p>
+          Experience case studies across five roles
+        </p>
+
+      </div>
+
+      <div class="cases">
+
+        <article
+          class="case featured"
+          id="process"
+        >
+
+          <div>
+
+            <p class="number">
+              01 / PROCESS OPTIMISATION
+            </p>
+
+            <h3>
+              Improving banking operations
+            </h3>
+
+            <p class="meta">
+              China Merchants Bank
+              <br>
+              Senior Banking Clerk · May 2023 – September 2025
+            </p>
+
+          </div>
+
+          <div>
+
+            <p class="detail">
+              Designed and implemented more than 12 process improvements across
+              banking operations. Applied knowledge of financial technology and
+              process analysis to improve operational workflows and support client service.
+            </p>
+
+            <p class="outcome">
+              More than 12 improvements implemented. Achieved 99.8% client
+              satisfaction and received three “Service Star” recognitions.
+            </p>
+
+          </div>
+
+        </article>
+
+        <article
+          class="case"
+          id="aml"
+        >
+
+          <p class="number">
+            02 / AML AND COMPLIANCE
+          </p>
+
+          <h3>
+            Maintaining accuracy in AML operations
+          </h3>
+
+          <p class="meta">
+            China Merchants Bank
+            <br>
+            Senior Banking Clerk · May 2023 – September 2025
+          </p>
+
+          <p class="detail">
+            Carried out anti-money laundering (AML) operations in line with
+            regulatory requirements, with a focus on accuracy and consistent compliance.
+          </p>
+
+          <p class="outcome">
+            Maintained zero-error accuracy in AML operations over a 15-month period.
+          </p>
+
+        </article>
+
+        <article
+          class="case"
+          id="onboarding"
+        >
+
+          <p class="number">
+            03 / ONBOARDING IMPROVEMENT
+          </p>
+
+          <h3>
+            Helping new employees become ready sooner
+          </h3>
+
+          <p class="meta">
+            China Merchants Bank
+            <br>
+            Senior Banking Clerk · May 2023 – September 2025
+          </p>
+
+          <p class="detail">
+            Streamlined employee onboarding to reduce the time new starters needed
+            to become effective, while supporting their qualification requirements.
+          </p>
+
+          <p class="outcome">
+            Reduced ramp-up time by 57% while maintaining a 100% qualification pass rate.
+          </p>
+
+        </article>
+
+        <article
+          class="case"
+          id="automation"
+        >
+
+          <p class="number">
+            04 / AUTOMATION AND ANALYSIS
+          </p>
+
+          <h3>
+            Shortening securities review cycles
+          </h3>
+
+          <p class="meta">
+            CAIDA SECURITIES CO., LTD.
+            <br>
+            Project Management Intern · July 2022 – January 2023
+          </p>
+
+          <p class="detail">
+            Updated operational data, resolved discrepancies and automated verification
+            processes. Designed dynamic valuation models, developed a digital filing
+            system and traceability framework, and authored market sizing analysis.
+          </p>
+
+          <p class="outcome">
+            Reduced internal review cycles by 30% through workflow automation.
+          </p>
+
+        </article>
+
+        <article
+          class="case"
+          id="regulatory"
+        >
+
+          <p class="number">
+            05 / REGULATORY DOCUMENTATION
+          </p>
+
+          <h3>
+            Tracking confirmations and verifying data
+          </h3>
+
+          <p class="meta">
+            KAIYUAN SECURITIES CO., LTD.
+            <br>
+            Project Management Intern · March 2022 – June 2022
+          </p>
+
+          <p class="detail">
+            Developed an automated tracking matrix for audit confirmation letters.
+            Reviewed more than 100 commercial agreements, drafted prospectus sections
+            and screened over 10,000 transaction records to verify capital flows.
+          </p>
+
+          <p class="outcome">
+            Improved audit confirmation response rates to 95% and maintained 100%
+            accuracy in operational data used to address BSE regulatory inquiries.
+          </p>
+
+        </article>
+
+        <article
+          class="case"
+          id="financial"
+        >
+
+          <p class="number">
+            06 / FINANCIAL DATA AND REPORTING
+          </p>
+
+          <h3>
+            Making financial documentation easier to use
+          </h3>
+
+          <p class="meta">
+            CAIDA SECURITIES CO., LTD.
+            <br>
+            Project Management Intern · July 2021 – February 2022
+          </p>
+
+          <p class="detail">
+            Standardised and indexed financial and compliance documentation.
+            Assisted with dynamic financial models, updated liquidity stress-testing
+            data and worked with clients and internal teams on industry competition analysis.
+          </p>
+
+          <p class="outcome">
+            Organised more than 200 pages of documentation and integrated five datasets
+            to strengthen financial disclosures.
+          </p>
+
+        </article>
+
+        <article
+          class="case"
+          id="stakeholders"
+        >
+
+          <p class="number">
+            07 / STAKEHOLDER ENGAGEMENT
+          </p>
+
+          <h3>
+            Translating client needs into service improvements
+          </h3>
+
+          <p class="meta">
+            Global Wave Group
+            <br>
+            Account Manager · May 2026 – July 2026
+          </p>
+
+          <p class="detail">
+            Built client relationships, analysed business needs and worked across teams
+            to improve service offerings. Supported account workflow improvements and
+            kept stakeholders informed about account status and emerging needs.
+          </p>
+
+          <p class="outcome">
+            Contributed to improved client satisfaction and retention, new business
+            opportunities and team performance.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <section
+      class="capabilities"
+      id="capabilities"
+      aria-labelledby="cap-title"
+    >
+
+      <div class="wrap cap-grid">
+
+        <div>
+
+          <h2 id="cap-title">
+            Capabilities
+          </h2>
+
+          <ul class="skills">
+            <li>Process improvement</li>
+            <li>Financial data analysis</li>
+            <li>Data validation</li>
+            <li>Workflow automation</li>
+            <li>Financial modelling</li>
+            <li>AML compliance</li>
+            <li>Regulatory documentation</li>
+            <li>Stakeholder engagement</li>
+          </ul>
+
+          <p>
+            My automation experience includes verification workflows and audit
+            confirmation tracking. My formal training includes Conch RPA Developer certification.
+          </p>
+
+        </div>
+
+        <div>
+
+          <h2>
+            Education and certifications
+          </h2>
+
+          <ul class="credentials">
+            <li>Junior Data Analyst Certification</li>
+            <li>Conch RPA Developer Certification</li>
+            <li>Securities Industry Professional Qualification (Entry-Level)</li>
+            <li>Certification in Process Data from Dirty to Clean</li>
+            <li>Certification in Ask Questions to Make Data-Driven Decisions</li>
+          </ul>
+
+          <p class="education">
+            <strong>Master of Business Informatics</strong>
+            <br>
+            Yoobee College of Creative Innovation
+            <br>
+            In progress · Expected 2027
+          </p>
+
+          <p class="education">
+            <strong>Master of Business</strong>
+            <br>
+            Monash University · December 2022
+          </p>
+
+          <p class="education">
+            <strong>Bachelor of Chinese Literature</strong>
+            <br>
+            Yancheng Institute of Technology · 2019
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="wrap">
+
+    <p>
+      Ming Zhao · Professional portfolio
+      <br>
+
+      <a href="mailto:mzha9797@gmail.com">
+        mzha9797@gmail.com
+      </a>
+    </p>
+
+    <a href="#top">
+      Back to top
+    </a>
+
+  </footer>
+
+</body>
+
+</html>
